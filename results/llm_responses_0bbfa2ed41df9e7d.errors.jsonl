@@ -1,0 +1,4 @@
+{"source_id": 6078, "kind": "upstream_failure", "http_status": 500, "retry_after_seconds": 30.0, "daily_quota_indicated": false, "at_utc": "2026-09-15T19:46:50.568056+00:00"}
+{"source_id": 6078, "kind": "upstream_failure", "http_status": 500, "retry_after_seconds": 30.0, "daily_quota_indicated": false, "at_utc": "2026-09-15T19:47:31.202055+00:00"}
+{"source_id": 19564, "kind": "quota_or_rate_limit", "http_status": 429, "retry_after_seconds": null, "daily_quota_indicated": false, "at_utc": "2026-09-15T19:50:12.192297+00:00"}
+{"source_id": 19564, "kind": "quota_or_rate_limit", "http_status": 429, "retry_after_seconds": null, "daily_quota_indicated": false, "at_utc": "2026-09-15T20:57:32.617543+00:00"}

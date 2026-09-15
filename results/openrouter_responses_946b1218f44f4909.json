@@ -1,0 +1,507 @@
+{
+  "model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "run_signature": "946b1218f44f4909",
+  "responses": {
+    "850": {
+      "label": 2,
+      "explanation": "The tweet contains only hashtags and a URL placeholder; there is no profanity, insult, or identity-based hate.",
+      "needs_review": false,
+      "source_id": 850,
+      "elapsed_seconds": 4.14,
+      "completed_at_utc": "2026-09-15T19:50:16.345238+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 150,
+        "reasoning_tokens": 80,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789501812-1AcW9GnGaMh4cQsPTFXA",
+        "provider": "Nvidia"
+      }
+    },
+    "1244": {
+      "label": 1,
+      "explanation": "The tweet contains the insult 'lies you trash', which is abusive language not tied to any protected identity.",
+      "needs_review": false,
+      "source_id": 1244,
+      "elapsed_seconds": 4.88,
+      "completed_at_utc": "2026-09-15T19:50:36.224839+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 311,
+        "reasoning_tokens": 289,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789501831-TpUaxRmMgdBPSvbOAWc2",
+        "provider": "Nvidia"
+      }
+    },
+    "17088": {
+      "label": 2,
+      "explanation": "The tweet only states agreement with a person named Charlie and contains no hateful, insulting, or identity‑based language.",
+      "needs_review": false,
+      "source_id": 17088,
+      "elapsed_seconds": 3.22,
+      "completed_at_utc": "2026-09-15T19:50:54.448997+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 250,
+        "reasoning_tokens": 219,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789501851-TE5eL6Eg9pujlwC4B1Tu",
+        "provider": "Nvidia"
+      }
+    },
+    "2709": {
+      "label": 1,
+      "explanation": "The tweet contains the profanity 'son of a bitch', which is an abusive insult but does not target a protected identity group.",
+      "needs_review": false,
+      "source_id": 2709,
+      "elapsed_seconds": 7.65,
+      "completed_at_utc": "2026-09-15T19:51:17.095976+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 295,
+        "reasoning_tokens": 216,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789501870-YpNWgWhEl5KUYbf1qe2Z",
+        "provider": "Nvidia"
+      }
+    },
+    "6005": {
+      "label": 0,
+      "explanation": "The tweet uses the slur 'hoe' to refer to women, which demeans people based on gender.",
+      "needs_review": false,
+      "source_id": 6005,
+      "elapsed_seconds": 7.56,
+      "completed_at_utc": "2026-09-15T19:51:39.656484+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 481,
+        "reasoning_tokens": 450,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789501892-Lqp7rnEnCtgy8xL4NAJW",
+        "provider": "Nvidia"
+      }
+    },
+    "6078": {
+      "label": 0,
+      "explanation": "The phrase 'half breed' is a slur that attacks a person's mixed racial/ethnic identity, which qualifies as hate speech.",
+      "needs_review": false,
+      "source_id": 6078,
+      "elapsed_seconds": 5.0,
+      "completed_at_utc": "2026-09-15T19:51:59.659203+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 361,
+        "reasoning_tokens": 338,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789501915-iRmbZBO7J7HooAMSvrq9",
+        "provider": "Nvidia"
+      }
+    },
+    "13452": {
+      "label": 1,
+      "explanation": "The tweet uses the derogatory term #teabaggers and suggests Nelson Mandela belongs to a disfavored group ('one of them'), which is insulting language but does not target a protected identity group.",
+      "needs_review": false,
+      "source_id": 13452,
+      "elapsed_seconds": 10.53,
+      "completed_at_utc": "2026-09-15T19:52:25.191841+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 503,
+        "reasoning_tokens": 456,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789501935-L1eUcL71pDpRrVf0QoNr",
+        "provider": "Nvidia"
+      }
+    },
+    "18879": {
+      "label": 1,
+      "explanation": "The tweet calls Migos 'trash,' which is an insult but does not target a protected identity group.",
+      "needs_review": false,
+      "source_id": 18879,
+      "elapsed_seconds": 5.24,
+      "completed_at_utc": "2026-09-15T19:52:45.429277+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 390,
+        "reasoning_tokens": 335,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789501960-butoUrwG90NoRpFwGEjx",
+        "provider": "Nvidia"
+      }
+    },
+    "2050": {
+      "label": 1,
+      "explanation": "The tweet contains profanity and gender‑targeted slurs ('hoes', 'bitches') but does not explicitly attack or promote hatred against a protected identity; it is best interpreted as offensive language rather than identity‑based hate.",
+      "needs_review": true,
+      "source_id": 2050,
+      "elapsed_seconds": 21.82,
+      "completed_at_utc": "2026-09-15T19:53:42.976088+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 822,
+        "reasoning_tokens": 813,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502001-4L8zNup4YdS8Wucnc7LE",
+        "provider": "Nvidia"
+      }
+    },
+    "19564": {
+      "label": 0,
+      "explanation": "The tweet contains the ableist slur 'retard,' which targets people with intellectual disability, constituting hate speech based on disability.",
+      "needs_review": false,
+      "source_id": 19564,
+      "elapsed_seconds": 5.8,
+      "completed_at_utc": "2026-09-15T19:54:03.775976+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 311,
+        "reasoning_tokens": 299,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502038-RofEcdSixXblQE4zcedG",
+        "provider": "Nvidia"
+      }
+    },
+    "18212": {
+      "label": 1,
+      "explanation": "The tweet uses the term 'bitch' as an insult toward a person, which is profanity/abusive language without reference to a protected identity.",
+      "needs_review": false,
+      "source_id": 18212,
+      "elapsed_seconds": 7.39,
+      "completed_at_utc": "2026-09-15T19:55:23.362223+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 323,
+        "reasoning_tokens": 289,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502116-66qOI6Ht6QU2kY5af20R",
+        "provider": "Nvidia"
+      }
+    },
+    "4930": {
+      "label": 0,
+      "explanation": "The tweet contains the slur 'faggot,' which is a derogatory term targeting sexual orientation, constituting hate speech.",
+      "needs_review": false,
+      "source_id": 4930,
+      "elapsed_seconds": 5.68,
+      "completed_at_utc": "2026-09-15T19:55:44.045095+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 302,
+        "reasoning_tokens": 238,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502139-0fPtz1gcnaNeFPSZqvQg",
+        "provider": "Nvidia"
+      }
+    },
+    "21215": {
+      "label": 1,
+      "explanation": "The tweet contains a racial slur and profanity but appears to be self‑referential bragging rather than an attack on a protected group, fitting offensive language.",
+      "needs_review": true,
+      "source_id": 21215,
+      "elapsed_seconds": 10.46,
+      "completed_at_utc": "2026-09-15T19:56:09.508196+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 654,
+        "reasoning_tokens": 619,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502159-0C6gxau1o2ntaA0TPYOt",
+        "provider": "Nvidia"
+      }
+    },
+    "7642": {
+      "label": 0,
+      "explanation": "The tweet uses the gender‑based slur 'hoes' to denigrate women as a group, constituting hate speech based on gender.",
+      "needs_review": false,
+      "source_id": 7642,
+      "elapsed_seconds": 3.09,
+      "completed_at_utc": "2026-09-15T19:56:27.598564+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 208,
+        "reasoning_tokens": 145,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502184-p3OZUTOzigCfFVkakCbx",
+        "provider": "Nvidia"
+      }
+    },
+    "17886": {
+      "label": 2,
+      "explanation": "The tweet is a political comment about voter ID mockery and does not contain hate speech, profanity, or abusive language targeting any identity group.",
+      "needs_review": false,
+      "source_id": 17886,
+      "elapsed_seconds": 4.08,
+      "completed_at_utc": "2026-09-15T19:57:07.358178+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 304,
+        "reasoning_tokens": 262,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502223-4X73kPsVW2WRLZk829pp",
+        "provider": "Nvidia"
+      }
+    },
+    "21535": {
+      "label": 0,
+      "explanation": "The tweet uses the racial slur 'niggers' to demean Black people, constituting hate speech.",
+      "needs_review": false,
+      "source_id": 21535,
+      "elapsed_seconds": 4.03,
+      "completed_at_utc": "2026-09-15T19:57:26.395171+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 231,
+        "reasoning_tokens": 200,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502242-Srih3zsVQQXV37zwlqIi",
+        "provider": "Nvidia"
+      }
+    },
+    "13433": {
+      "label": 2,
+      "explanation": "The tweet expresses frustration about a platform limitation for queer folks and contains no profanity, insults, or identity-based hate attack.",
+      "needs_review": false,
+      "source_id": 13433,
+      "elapsed_seconds": 5.98,
+      "completed_at_utc": "2026-09-15T19:57:47.377491+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 535,
+        "reasoning_tokens": 572,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502261-dHFO16SNviXZmbvBMUNN",
+        "provider": "Nvidia"
+      }
+    },
+    "4739": {
+      "label": 2,
+      "explanation": "The tweet references ethnicity but contains no clear hateful attack, insult, or profanity; its meaning is ambiguous.",
+      "needs_review": true,
+      "source_id": 4739,
+      "elapsed_seconds": 3.82,
+      "completed_at_utc": "2026-09-15T19:58:06.200518+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 336,
+        "reasoning_tokens": 302,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502282-et4DtCseqvgDmhjodDWm",
+        "provider": "Nvidia"
+      }
+    },
+    "4356": {
+      "label": 0,
+      "explanation": "The tweet uses the slur 'fag' directed at an individual, which is an identity-based attack targeting sexual orientation.",
+      "needs_review": false,
+      "source_id": 4356,
+      "elapsed_seconds": 4.83,
+      "completed_at_utc": "2026-09-15T19:58:26.027797+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 204,
+        "reasoning_tokens": 160,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502301-bW2TNfQUJoT45rv3tBby",
+        "provider": "Nvidia"
+      }
+    },
+    "16436": {
+      "label": 2,
+      "explanation": "The tweet says 'shy girls are cute', which is a positive statement about a group and contains no insults, profanity, or identity-based hate.",
+      "needs_review": false,
+      "source_id": 16436,
+      "elapsed_seconds": 5.02,
+      "completed_at_utc": "2026-09-15T19:59:06.700688+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 230,
+        "reasoning_tokens": 187,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502342-u8X9s3eWa7wfHk3uQRts",
+        "provider": "Nvidia"
+      }
+    },
+    "13484": {
+      "label": 1,
+      "explanation": "The tweet condemns jihadis by saying they are 'infuriated' and making murder requests, which is abusive language but does not clearly target a protected identity group with hate.",
+      "needs_review": false,
+      "source_id": 13484,
+      "elapsed_seconds": 11.44,
+      "completed_at_utc": "2026-09-15T19:59:54.071738+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 791,
+        "reasoning_tokens": 877,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502383-9hMBi9rWIdlSkyK8W4h9",
+        "provider": "Nvidia"
+      }
+    },
+    "14847": {
+      "label": 0,
+      "explanation": "The tweet uses the derogatory term 'hoes' to say they have no life, which is a gender‑based demeaning statement targeting women.",
+      "needs_review": false,
+      "source_id": 14847,
+      "elapsed_seconds": 10.27,
+      "completed_at_utc": "2026-09-15T20:00:19.343310+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 374,
+        "reasoning_tokens": 319,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502409-YdcDbrYiulArauTyYnug",
+        "provider": "Nvidia"
+      }
+    },
+    "5857": {
+      "label": 2,
+      "explanation": "The tweet asks about adding more color TV stations and contains no hateful, insulting, or profane language.",
+      "needs_review": false,
+      "source_id": 5857,
+      "elapsed_seconds": 8.46,
+      "completed_at_utc": "2026-09-15T20:00:42.801838+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 355,
+        "reasoning_tokens": 347,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502434-gekDTKOyEqkjui7CVcJO",
+        "provider": "Nvidia"
+      }
+    },
+    "16312": {
+      "label": 2,
+      "explanation": "The tweet describes an Oreo as adorable, expressing positive sentiment with no hate, insults, or identity‑based attack.",
+      "needs_review": false,
+      "source_id": 16312,
+      "elapsed_seconds": 4.82,
+      "completed_at_utc": "2026-09-15T20:01:02.621305+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 257,
+        "reasoning_tokens": 226,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502458-ERIEwUXlR3YdagaLHwNq",
+        "provider": "Nvidia"
+      }
+    },
+    "2780": {
+      "label": 1,
+      "explanation": "The tweet contains the racial slur 'nig' used toward the addressee, which constitutes abusive language without a clear identity‑based hate attack.",
+      "needs_review": true,
+      "source_id": 2780,
+      "elapsed_seconds": 10.25,
+      "completed_at_utc": "2026-09-15T20:01:27.877749+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 607,
+        "reasoning_tokens": 593,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502478-FPqKpb7GQ0vwh9hGLfvG",
+        "provider": "Nvidia"
+      }
+    },
+    "17611": {
+      "label": 1,
+      "explanation": "The tweet uses the insult 'bitch' and profanity but does not clearly target a protected identity group such as race, religion, gender, etc.",
+      "needs_review": true,
+      "source_id": 17611,
+      "elapsed_seconds": 22.34,
+      "completed_at_utc": "2026-09-15T20:02:26.108640+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 537,
+        "reasoning_tokens": 536,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502524-I0JrBwzNXdABliFruBgg",
+        "provider": "Nvidia"
+      }
+    },
+    "15560": {
+      "label": 1,
+      "explanation": "The tweet uses the insult 'big bitch' and profanity-laden self‑description, which is offensive language but does not target a protected identity group.",
+      "needs_review": false,
+      "source_id": 15560,
+      "elapsed_seconds": 25.1,
+      "completed_at_utc": "2026-09-15T20:03:06.214081+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 382,
+        "reasoning_tokens": 356,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789502561-XCVDyXpf6I9tMm4wSJgc",
+        "provider": "Nvidia"
+      }
+    },
+    "13313": {
+      "label": 0,
+      "explanation": "The tweet uses the racial slur 'niggas' and the homophobic slur 'faggot' to insult and demean people based on race and sexual orientation.",
+      "needs_review": false,
+      "source_id": 13313,
+      "elapsed_seconds": 3.87,
+      "completed_at_utc": "2026-09-15T20:57:58.005763+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 346,
+        "reasoning_tokens": 278,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789505874-paVXUhvWFfm5Dd0GAoNi",
+        "provider": "Nvidia"
+      }
+    },
+    "18551": {
+      "label": 1,
+      "explanation": "The tweet contains a vulgar sexual reference (eat pussy) but does not target a protected identity group, so it is offensive language, not hate speech.",
+      "needs_review": false,
+      "source_id": 18551,
+      "elapsed_seconds": 5.02,
+      "completed_at_utc": "2026-09-15T20:58:18.029969+00:00",
+      "diagnostics": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "completion_tokens": 244,
+        "reasoning_tokens": 208,
+        "max_tokens": 4096,
+        "generation_id": "gen-1789505893-iYjvAYlPlQRbynLyjRWG",
+        "provider": "Nvidia"
+      }
+    }
+  },
+  "recovery_policy": {
+    "version": 1,
+    "max_attempts_per_id": 2,
+    "openrouter_base_max_tokens": 4096,
+    "openrouter_truncation_max_tokens": 16384,
+    "stop_on_429": true,
+    "max_consecutive_failed_ids": 3
+  }
+}

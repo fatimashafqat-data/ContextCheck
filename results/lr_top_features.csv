@@ -1,0 +1,46 @@
+label,category,rank,feature,coefficient
+0,Hate speech,1,faggot,7.055991154875473
+0,Hate speech,2,nigger,6.052353792334127
+0,Hate speech,3,faggots,6.0492745370341225
+0,Hate speech,4,nigga,5.229987519613195
+0,Hate speech,5,niggers,5.179499178930604
+0,Hate speech,6,fag,4.433816059521775
+0,Hate speech,7,niggas,4.344107979306555
+0,Hate speech,8,dyke,3.9642458062686496
+0,Hate speech,9,white,3.7962686426727292
+0,Hate speech,10,fags,3.736546106662105
+0,Hate speech,11,fuck,3.487725488171477
+0,Hate speech,12,queer,3.1810167381742613
+0,Hate speech,13,hate,3.1182823046035564
+0,Hate speech,14,racist,3.1029409375472
+0,Hate speech,15,ass,3.030536147877284
+1,Offensive language,1,bitch,12.12920292578877
+1,Offensive language,2,bitches,8.876131152905092
+1,Offensive language,3,pussy,7.362042162555499
+1,Offensive language,4,hoes,6.085104835573504
+1,Offensive language,5,hoe,5.078854144480297
+1,Offensive language,6,shit,2.9979384911616003
+1,Offensive language,7,pussies,2.37036025148868
+1,Offensive language,8,ass,1.9808676576812265
+1,Offensive language,9,usertoken lol,1.9206029126481672
+1,Offensive language,10,usertoken bitch,1.835334152186173
+1,Offensive language,11,cunt,1.8108990639336204
+1,Offensive language,12,her,1.7020400622324365
+1,Offensive language,13,niggah,1.6668844801475151
+1,Offensive language,14,ain,1.593539513281556
+1,Offensive language,15,these bitches,1.5292728668058884
+2,Neither,1,bird,5.122514401844938
+2,Neither,2,yankees,4.584167690432613
+2,Neither,3,charlie,4.566325772766096
+2,Neither,4,yellow,4.383027071352691
+2,Neither,5,trash,4.071545479952194
+2,Neither,6,birds,3.691738854659457
+2,Neither,7,brownies,3.3108442836630805
+2,Neither,8,colored,2.7755348307216803
+2,Neither,9,yankee,2.509980118599044
+2,Neither,10,mock,2.4135900597043873
+2,Neither,11,urltoken,2.411422818497351
+2,Neither,12,oreos,2.310261027025703
+2,Neither,13,jihadi,2.286721503066267
+2,Neither,14,monkey,2.2392336675021323
+2,Neither,15,redskins,2.0925372712510986

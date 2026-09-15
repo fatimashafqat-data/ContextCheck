@@ -1,0 +1,11 @@
+{"source_id": 2050, "kind": "upstream_failure", "http_status": 502, "retry_after_seconds": null, "daily_quota_indicated": false, "at_utc": "2026-09-15T19:53:01.158505+00:00"}
+{"source_id": 13313, "kind": "upstream_failure", "http_status": 502, "retry_after_seconds": null, "daily_quota_indicated": false, "at_utc": "2026-09-15T19:54:19.469709+00:00"}
+{"source_id": 13313, "kind": "upstream_failure", "http_status": 502, "retry_after_seconds": null, "daily_quota_indicated": false, "at_utc": "2026-09-15T19:54:40.256524+00:00"}
+{"source_id": 18212, "kind": "upstream_failure", "http_status": 502, "retry_after_seconds": null, "daily_quota_indicated": false, "at_utc": "2026-09-15T19:54:55.972105+00:00"}
+{"source_id": 17886, "kind": "upstream_failure", "http_status": 502, "retry_after_seconds": null, "daily_quota_indicated": false, "at_utc": "2026-09-15T19:56:43.281249+00:00"}
+{"source_id": 16436, "kind": "upstream_failure", "http_status": 502, "retry_after_seconds": null, "daily_quota_indicated": false, "at_utc": "2026-09-15T19:58:41.683462+00:00"}
+{"source_id": 13484, "kind": "upstream_failure", "http_status": 502, "retry_after_seconds": null, "daily_quota_indicated": false, "at_utc": "2026-09-15T19:59:22.630439+00:00"}
+{"source_id": 17611, "kind": "upstream_failure", "http_status": 502, "retry_after_seconds": null, "daily_quota_indicated": false, "at_utc": "2026-09-15T20:01:43.771288+00:00"}
+{"source_id": 13313, "kind": "upstream_failure", "http_status": 502, "retry_after_seconds": null, "daily_quota_indicated": false, "at_utc": "2026-09-15T20:57:34.131898+00:00"}
+{"source_id": 6986, "kind": "upstream_failure", "http_status": 502, "retry_after_seconds": null, "daily_quota_indicated": false, "at_utc": "2026-09-15T20:58:33.921062+00:00"}
+{"source_id": 6986, "kind": "upstream_failure", "http_status": 502, "retry_after_seconds": null, "daily_quota_indicated": false, "at_utc": "2026-09-15T20:58:55.075541+00:00"}

@@ -1,0 +1,5 @@
+category,Training,Validation,Test
+Hate speech,989,212,212
+Offensive language,13313,2853,2854
+Neither,2878,617,616
+Total,17180,3682,3682

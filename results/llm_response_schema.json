@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2
+      ]
+    },
+    "explanation": {
+      "type": "string"
+    },
+    "needs_review": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "label",
+    "explanation",
+    "needs_review"
+  ],
+  "additionalProperties": false
+}

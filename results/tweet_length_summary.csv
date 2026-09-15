@@ -1,0 +1,4 @@
+category,count,median,mean,min,max
+Hate speech,1429,14.0,13.9,1,32
+Offensive language,19178,13.0,14.0,1,36
+Neither,4163,15.0,14.9,1,52

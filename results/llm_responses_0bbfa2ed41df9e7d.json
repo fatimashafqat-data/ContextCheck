@@ -1,0 +1,98 @@
+{
+  "model": "gemini-3.8-flash",
+  "run_signature": "0bbfa2ed41df9e7d",
+  "responses": {
+    "850": {
+      "label": 2,
+      "explanation": "The tweet consists of hashtags related to art materials and subjects (#gouache, #monkey, #tiki) with no clear attack, insult, or hateful intent.",
+      "needs_review": true,
+      "source_id": 850,
+      "elapsed_seconds": 8.14,
+      "completed_at_utc": "2026-09-15T02:22:07.470720+00:00"
+    },
+    "1244": {
+      "label": 1,
+      "explanation": "The tweet uses the insult 'trash' directed at someone regarding a video game, which is mildly abusive/insulting language without identity-based hate.",
+      "needs_review": true,
+      "source_id": 1244,
+      "elapsed_seconds": 170.76,
+      "completed_at_utc": "2026-09-15T02:25:13.231984+00:00"
+    },
+    "17088": {
+      "label": 2,
+      "explanation": "The text contains no hate speech, profanity, or offensive language.",
+      "needs_review": false,
+      "source_id": 17088,
+      "elapsed_seconds": 2.45,
+      "completed_at_utc": "2026-09-15T02:25:30.690755+00:00"
+    },
+    "2709": {
+      "label": 1,
+      "explanation": "The tweet contains colloquial profanity ('son of a bitch') without targeting any protected identity group.",
+      "needs_review": false,
+      "source_id": 2709,
+      "elapsed_seconds": 5.89,
+      "completed_at_utc": "2026-09-15T02:25:51.581734+00:00"
+    },
+    "6005": {
+      "label": 0,
+      "explanation": "The tweet demeans women based on gender by associating or defining them with the misogynistic slur 'hoe'.",
+      "needs_review": true,
+      "source_id": 6005,
+      "elapsed_seconds": 4.49,
+      "completed_at_utc": "2026-09-15T02:26:11.074306+00:00"
+    },
+    "13452": {
+      "label": 1,
+      "explanation": "Uses the derogatory political term 'teabaggers' to insult Tea Party members while attributing racial bias to them.",
+      "needs_review": false,
+      "source_id": 13452,
+      "elapsed_seconds": 5.17,
+      "completed_at_utc": "2026-09-15T19:47:51.371272+00:00",
+      "diagnostics": {
+        "http_status": 200
+      }
+    },
+    "18879": {
+      "label": 2,
+      "explanation": "The tweet is a humorous joke about criticizing a rap group, which does not constitute hate speech or abusive offensive language.",
+      "needs_review": false,
+      "source_id": 18879,
+      "elapsed_seconds": 57.84,
+      "completed_at_utc": "2026-09-15T19:49:04.216303+00:00",
+      "diagnostics": {
+        "http_status": 200
+      }
+    },
+    "2050": {
+      "label": 1,
+      "explanation": "The tweet contains profanity ('fuck', 'shit') and vulgar slang ('hoes', 'bitches') used in the context of personal relationship drama, rather than hate speech targeting a protected identity.",
+      "needs_review": false,
+      "source_id": 2050,
+      "elapsed_seconds": 13.39,
+      "completed_at_utc": "2026-09-15T19:49:32.606673+00:00",
+      "diagnostics": {
+        "http_status": 200
+      }
+    },
+    "6078": {
+      "label": 0,
+      "explanation": "The tweet uses the racial slur 'half breed' to demean an individual based on race or mixed racial identity.",
+      "needs_review": false,
+      "source_id": 6078,
+      "elapsed_seconds": 4.14,
+      "completed_at_utc": "2026-09-15T20:57:16.848080+00:00",
+      "diagnostics": {
+        "http_status": 200
+      }
+    }
+  },
+  "recovery_policy": {
+    "version": 1,
+    "max_attempts_per_id": 2,
+    "openrouter_base_max_tokens": 4096,
+    "openrouter_truncation_max_tokens": 16384,
+    "stop_on_429": true,
+    "max_consecutive_failed_ids": 3
+  }
+}

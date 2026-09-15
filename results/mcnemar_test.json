@@ -1,0 +1,10 @@
+{
+  "both_correct": 2985,
+  "lr_only_correct": 174,
+  "rf_only_correct": 113,
+  "both_wrong": 410,
+  "p_value": 0.0003797805898983284,
+  "alpha": 0.05,
+  "test": "exact two-sided McNemar",
+  "accuracy_gap": 0.016567083107007163
+}
