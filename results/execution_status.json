@@ -1,0 +1,79 @@
+{
+  "execution_run_id": "998b291b38ca472e9f6b17986f662c9d",
+  "completed_at_utc": "2026-09-15T20:58:57.646447+00:00",
+  "classic_test_rows": 3682,
+  "selected_model": "Logistic Regression",
+  "llm_benchmark_complete": false,
+  "interpretability_complete": true,
+  "error_analysis_complete": true,
+  "mcnemar_complete": true,
+  "automated_tests_passed": true,
+  "ui_smoke_passed": true,
+  "all_prior_code_sections_completed": true,
+  "missing_sections": [],
+  "expanded_notebook_colab_verified": false,
+  "notebook_capture_complete": true,
+  "llm_sources": {
+    "gemini": {
+      "completed": 9,
+      "planned": 30,
+      "model": "gemini-3.8-flash",
+      "cache_file": "llm_responses_0bbfa2ed41df9e7d.json",
+      "attempts_this_run": 2,
+      "stop_reason": "quota_or_rate_limit",
+      "request_errors": [
+        {
+          "source_id": 19564,
+          "kind": "quota_or_rate_limit",
+          "http_status": 429,
+          "retry_after_seconds": null,
+          "daily_quota_indicated": false,
+          "at_utc": "2026-09-15T20:57:32.617543+00:00"
+        }
+      ]
+    },
+    "openrouter": {
+      "completed": 29,
+      "planned": 30,
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "cache_file": "openrouter_responses_946b1218f44f4909.json",
+      "attempts_this_run": 5,
+      "stop_reason": null,
+      "request_errors": [
+        {
+          "source_id": 13313,
+          "kind": "upstream_failure",
+          "http_status": 502,
+          "retry_after_seconds": null,
+          "daily_quota_indicated": false,
+          "at_utc": "2026-09-15T20:57:34.131898+00:00"
+        },
+        {
+          "source_id": 6986,
+          "kind": "upstream_failure",
+          "http_status": 502,
+          "retry_after_seconds": null,
+          "daily_quota_indicated": false,
+          "at_utc": "2026-09-15T20:58:33.921062+00:00"
+        },
+        {
+          "source_id": 6986,
+          "kind": "upstream_failure",
+          "http_status": 502,
+          "retry_after_seconds": null,
+          "daily_quota_indicated": false,
+          "at_utc": "2026-09-15T20:58:55.075541+00:00"
+        }
+      ]
+    }
+  },
+  "github_published": true,
+  "overall_status": "INCOMPLETE",
+  "publication": {
+    "repository": "https://github.com/fatimashafqat-data/ContextCheck",
+    "source_colab_run": "998b291b38ca472e9f6b17986f662c9d",
+    "note": "Publication updates the GitHub status; computational completion flags retain the recorded Colab results.",
+    "local_behavioral_tests": "4 passed",
+    "notebook_publication_edits": "Repository links, documentation generation, and cached LLM defaults; training and benchmark definitions unchanged."
+  }
+}
